@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+</head>
+
+<body>
+    <p>Ejemplo de Programación Orientada a Objetos</p>
+</body>
+<script>
+    var persona = {
+        nombre: ['Bob', 'Smith'],
+        edad: 32,
+        genero: 'masculino',
+        intereses: ['música', 'esquí'],
+        bio: function () {
+            alert(this.nombre[0] + '' + this.nombre[1] + ' tiene ' + this.edad + 'años.Le gusta ' + this.intereses[0] + ' y ' + this.intereses[1] + '.');
+        },
+        saludo: function () {
+            alert('Hola, Soy ' + this.nombre[0] + '. ');
+        }
+    };
+
+    persona.nombre[0]
+    persona.edad
+    persona.intereses[1]
+    persona.bio()
+    persona.saludo()
+</script>
+
+</html>

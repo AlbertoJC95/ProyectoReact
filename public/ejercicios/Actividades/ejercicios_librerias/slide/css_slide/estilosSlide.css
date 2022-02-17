@@ -1,0 +1,33 @@
+h1{
+  text-align: center ;
+}
+
+#flip,#flip2,#flip3 {
+    
+    text-align: center;
+    background-color: #e5eecc;
+    border: solid 1px #c3c3c3;
+  }
+  
+  #panel,#panel2,#panel3 {
+    padding: 25px;
+  height: 100px;
+    display: none;
+    background-color: #e5eecc;
+    border: solid 1px #c3c3c3;
+  }
+  img{
+    max-width: 200px;
+    max-height: 100px;
+  }
+  #foto{
+  width:25%;
+  float:left;
+  display:block;
+  }
+  #descripcion{
+    width:75%;
+    float:left;    
+    display:block;
+
+  }

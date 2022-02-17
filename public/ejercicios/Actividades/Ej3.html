@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+
+        function juego() {
+            var max = 100;
+            var min = 1;
+            var contador = 0;
+            var numAleatorio = Math.floor(Math.random() * 100) + 1;
+
+            while (true) {
+                contador++;
+                var usuario = prompt("Introduce un número");
+
+                if (isNaN(usuario)) {
+                    alert("No es un número");
+                }
+
+                if (usuario === null) {
+                    alert("Has cancelado el programa");
+                    break;
+                }
+
+                if (usuario == numAleatorio) {
+                    alert("ACERTADO, " + "en: " + contador + " intentos");
+                    break;
+                }
+                else if (usuario == 0) {
+                    break;
+                }
+                else if (usuario < numAleatorio) {
+                    alert("El número es mayor, intentalo otra vez");
+                }
+                else if (usuario > numAleatorio) {
+                    alert("El numero es menor");
+                }
+            }
+        }
+
+    </script>
+</head>
+
+<body>
+    <h1>Juego adivinar número</h1>
+    <p>
+        Hemos seleccionado un número aleatorio entre 1 y 100. <br>
+        Fíjate si lo puedes adivinar en 10 turnos o menos.<br>
+        Vamos a decirte si tu número es más alto o más bajo.
+    </p>
+    <button onclick="juego()">Iniciar juego</button>
+</body>
+
+</html>

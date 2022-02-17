@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cara y Cruz Promesas</title>
+</head>
+<body>
+    <script>
+const caraCruz= new Promise (function(resolve,reject){
+    //numero aleatorio (0 o 1)
+    numeroAleatorio = Math.floor(Math.random()*2);
+    if (numeroAleatorio){
+        resolve("Cara");//fulfilled successfully
+    }
+    else{
+        reject("Cruz"); //error, rejected
+    }
+}
+);
+
+caraCruz
+.then((resolveMsg)=>{console.log(resolveMsg);})
+.catch((err)=>{console.log(err);});
+
+console.log(caraCruz);
+
+    </script>
+</body>
+</html>

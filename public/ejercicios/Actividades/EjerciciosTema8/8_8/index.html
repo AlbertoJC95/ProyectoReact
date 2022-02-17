@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>INFORME INCIDENCIA</h1>
+    </header>
+    <figure>
+        <img src="img/distribucion.jpg" alt="oficina" id="imagen" />
+    </figure>
+<main>
+    <form action="#">
+        <table>
+            <tr>
+                <td>
+                    <label for="tipo">
+                        Tipo de incidencia
+                    </label>
+                </td>
+                <td>
+                    <select name="tipo" id="tipo">
+                        <option value="distribucion" selected>
+                            Distribucion
+                        </option>
+                        <option value="oficina">Oficina</option>
+                        <option value="produccion">Produccion</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label id="labelSerie" for="serie">
+                        Numero de serie
+                    </label>
+                </td>
+                <td>
+                    <input type="text" name="serie" id="serie">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <button type="button" id="mostrarDescripcion">
+                        Mostrar Descripcion
+                    </button>
+                    <div id="fDescripcion">
+                        <label for="descripcion" id="labelDescripcion">
+                            Descripcion
+                        </label><br>
+                        <textarea name="descripcion" id="descripcion" cols="30" rows="10">
+                        </textarea>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <br>
+                    <button id="enviar">Enviar datos</button>
+                </td>
+            </tr>
+        </table>
+        <div id="capaError">
+
+        </div>
+    </form>
+</main>
+
+<script src="js/accion.js"></script>
+
+</body>
+</html>

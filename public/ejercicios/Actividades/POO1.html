@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Document</title>
+</head>
+
+<body>
+    <button onclick="Animal(5)">Click aquí!</button>
+    <script>
+        function Animal(edad) {
+            this.edad = edad || 0;
+            alert(this.edad);
+        }
+        var iris = new Animal(4),
+            rufo = new Animal(6);
+        alert(iris instanceof Animal); // true
+        alert(rufo.edad); // 6
+
+    </script>
+</body>
+
+
+</html>

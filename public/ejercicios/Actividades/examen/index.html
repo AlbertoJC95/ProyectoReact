@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            var dato1, dato2, resultado;
+
+            $("button").click(function () {
+
+                dato1 = parseInt($("#entrada1").val());
+                dato2 = parseInt($("#entrada2").val());
+
+                if (dato1 > dato2) {
+                    resultado = "El número A es mayor";
+                    $("#circulo").animate({ left: '250px' });
+                } else {
+                    if (dato2 > dato1) {
+                        resultado = "El número B es mayor";
+                        $("#circulo").animate({ bottom: '250px' });
+                    } else {
+                        resultado = "Son iguales";
+                    }
+                }
+
+                $("#circulo").animate({ opacity: '0' });
+                $("#salida").append(resultado);
+                setTimeout('document.location.reload()', 2000);
+
+            });
+        });
+
+    </script>
+</head>
+
+<body>
+
+    <h2>Introduce dos números</h2>
+    Nº A <input id="entrada1" type="text" />
+    <br>
+    Nº B <input id="entrada2" type="text" />
+
+    <button>Jugar</button>
+
+    <div id="circulo" style="margin-top: 20px;
+        background-color: rgb(192, 230, 254);
+        background: radial-gradient(circle, rgba(193,230,254,1) 0%, rgba(252,70,107) 100%);
+        height: 100px;
+        width: 100px;
+        position: absolute;
+        border-radius: 50%;"></div>
+
+    <div id="salida" style="color: brown;
+        font-weight: bold; 
+        font-size: 18px;"></div>
+
+</body>
+
+</html>

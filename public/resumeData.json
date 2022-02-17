@@ -1,0 +1,355 @@
+{
+  "main": {
+    "name": "Alberto Jiménez",
+    "occupation": "programador",
+    "description": "Esta es tu descripción. Use esto para describir lo que hace o lo que crea que se describe mejor para un empleador potencial",
+    "image": "profilepic.jpg",
+    "bio": "Use esta sección de biografía como su forma de describirse a sí mismo y decir lo que hace, qué tecnologías le gusta usar o con las que se siente más cómodo, describir su personalidad o cualquier otra cosa que tenga ganas de agregar.",
+    "contactmessage": "Aquí es donde debes escribir tu mensaje a los lectores para que se pongan en contacto contigo.",
+    "email": "albertojimenezcid@gmail.com",
+    "phone": "666666666",
+    "address": {
+      "street": "Calle San Juan de la Cruz",
+      "city": "Pozuelo de Alarcón",
+      "state": "España",
+      "zip": "28223"
+    },
+    "website": "http://www.timbakerdev.com",
+    "resumedownload": "http://timbakerdev.com",
+    "social": [
+      {
+        "name": "facebook",
+        "url": "http://facebook.com/",
+        "className": "fa fa-facebook"
+      },
+      {
+        "name": "twitter",
+        "url": "http://twitter.com",
+        "className": "fa fa-twitter"
+      },
+      {
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/",
+        "className": "fa fa-linkedin"
+      },
+      {
+        "name": "instagram",
+        "url": "http://instagram.com/",
+        "className": "fa fa-instagram"
+      },
+      {
+        "name": "github",
+        "url": "http://github.com/",
+        "className": "fa fa-github"
+      }
+    ]
+  },
+  "resume": {
+    "skillmessage": "Aquí puede crear una breve reseña de sus habilidades para presumir ante los empleadores.",
+    "education": [
+      {
+        "school": "Universidad",
+        "degree": "Ingeniería informática",
+        "graduated": "Abril 2017",
+        "description": "Describa su experiencia en la escuela, lo que aprendió, qué habilidades útiles ha adquirido, etc."
+      },
+      {
+        "school": "Instituto San Juan de la Cruz",
+        "degree": "Desarrollo de Aplicaciones Web",
+        "graduated": "Marzo 2013",
+        "description": "Describa su experiencia en la escuela, lo que aprendió, qué habilidades útiles ha adquirido, etc."
+      }
+    ],
+    "work": [
+      {
+        "company": "NTT DATA",
+        "title": "Senior UX",
+        "years": "Marzo 2020 - Present",
+        "description": "Describa el trabajo, los proyectos especiales, los logros notables, las tecnologías con las que ha estado trabajando y cualquier otra cosa que sería útil que supiera un empleador."
+      },
+      {
+        "company": "Super Cool Studio",
+        "title": "Junior bug fixer",
+        "years": "Marzo 2017 - Febrero 2020",
+        "description": "Describa el trabajo, los proyectos especiales, los logros notables, las tecnologías con las que ha estado trabajando y cualquier otra cosa que sería útil que supiera un empleador."
+      }
+    ],
+    "skills": [
+      {
+        "name": "Git",
+        "level": "60%"
+      },
+      {
+        "name": "Illustrator",
+        "level": "55%"
+      },
+      {
+        "name": "ReactJs",
+        "level": "50%"
+      },
+      {
+        "name": "CSS",
+        "level": "90%"
+      },
+      {
+        "name": "HTML5",
+        "level": "80%"
+      },
+      {
+        "name": "VueJs",
+        "level": "50%"
+      },
+      {
+        "name": "MongoDB",
+        "level": "80%"
+      }
+    ]
+  },
+  "portfolio": {
+    "projects": [
+      {
+        "title": "POO1",
+        "category": "POO",
+        "image": "1.jpg",
+        "url": "https://github.com/AlbertoJC95/EjerciciosCliente/blob/main/POO1.html",
+        "url1": "./ejercicios/Actividades/POO1.html"
+      },
+      {
+        "title": "POO",
+        "category": "POO1",
+        "image": "2.jpg",
+        "url": "https://github.com/AlbertoJC95/EjerciciosCliente/blob/main/POO.html",
+        "url1": "./ejercicios/Actividades/POO.html"
+      },
+      {
+        "title": "Loteria",
+        "category": "Ejercicios",
+        "image": "3.jpg",
+        "url": "https://github.com/AlbertoJC95/EjerciciosCliente/blob/main/loteria.html",
+        "url1": "./ejercicios/Actividades/loteria.html"
+      },
+      {
+        "title": "Ejemplo",
+        "category": "Ejercicios",
+        "image": "4.jpg",
+        "url": "https://github.com/AlbertoJC95/EjerciciosCliente/blob/main/Ejemplo.html",
+        "url1": "./ejercicios/Actividades/Ejemplo.html"
+      },
+      {
+        "title": "EJ3",
+        "category": "Ejercicios",
+        "image": "5.jpg",
+        "url": "https://github.com/AlbertoJC95/EjerciciosCliente/blob/main/Ej3.html",
+        "url1": "./ejercicios/Actividades/Ej3.html"
+      },
+      {
+        "title": "EJ2",
+        "category": "Ejercicios",
+        "image": "6.jpg",
+        "url": "https://github.com/AlbertoJC95/EjerciciosCliente/blob/main/Ej2.html",
+        "url1": "./ejercicios/Actividades/Ej2.html"
+      },
+      {
+        "title": "EJ1-JQuery",
+        "category": "Jquery",
+        "image": "7.jpg",
+        "url": "https://github.com/AlbertoJC95/EjerciciosCliente/blob/main/ej1-jquery.html",
+        "url1": "./ejercicios/Actividades/ej-1jquery.html"
+      },
+      {
+        "title": "EJ1",
+        "category": "Ejercicios",
+        "image": "8.jpg",
+        "url": "https://github.com/AlbertoJC95/EjerciciosCliente/blob/main/Ej1.html",
+        "url1": "./ejercicios/Actividades/Ej1.html"
+      },
+      {
+        "title": "Herencia doc",
+        "category": "Herencia",
+        "image": "9.jpg",
+        "url": "https://github.com/AlbertoJC95/EjerciciosCliente/blob/main/Herencia-Alberto_Jimenez/EjemploHerencia.js",
+        "url1": "./ejercicios/Actividades/Herencia-Alberto_Jimenez/EjemploHerencia.docx"
+      },
+      {
+        "title": "Ej examen",
+        "category": "Examen",
+        "image": "10.jpg",
+        "url": "https://github.com/AlbertoJC95/EjerciciosCliente/blob/main/examen/index.html",
+        "url1": "./ejercicios/Actividades/examen/index.html"
+      },
+      {
+        "title": "Cara_cruz",
+        "category": "Tema 9",
+        "image": "11.jpg",
+        "url": "https://github.com/AlbertoJC95/EjerciciosCliente/blob/main/EjerciciosTema9/EjerciciosPromesas_Javadesde0/CaraCruz_Promesas.html",
+        "url1": "./ejercicios/Actividades/EjerciciosTema9/EjerciciosPromesas_Javadesde0/CaraCruz_Promesas.html"
+      },
+      {
+        "title": "Portero",
+        "category": "Tema 9",
+        "image": "12.jpg",
+        "url": "https://github.com/AlbertoJC95/EjerciciosCliente/blob/main/EjerciciosTema9/EjerciciosPromesas_Javadesde0/PorteroDiscoteca.html",
+        "url1": "./ejercicios/Actividades/EjerciciosTema9/EjerciciosPromesas_Javadesde0/PorteroDiscoteca.html"
+      },
+      {
+        "title": "Temporizador",
+        "category": "Tema 9",
+        "image": "13.jpg",
+        "url": "https://github.com/AlbertoJC95/EjerciciosCliente/tree/main/EjerciciosTema9/Practica9_1",
+        "url1": "./ejercicios/Actividades/EjerciciosTema9/Practica9_1/TemporizadorPromesa.html"
+      },
+      {
+        "title": "Tiempo",
+        "category": "Tema 9",
+        "image": "14.jpg",
+        "url": "https://github.com/AlbertoJC95/EjerciciosCliente/blob/main/EjerciciosTema9/Punto_9_4/tiempos.html",
+        "url1": "./ejercicios/Actividades/EjerciciosTema9/Punto_9_4/tiempos.html"
+      },
+      {
+        "title": "Promesas 5",
+        "category": "Tema 9",
+        "image": "15.jpg",
+        "url": "https://github.com/AlbertoJC95/EjerciciosCliente/blob/main/EjerciciosTema9/Punto_9_4_3_5/promesas.html",
+        "url1": "./ejercicios/Actividades/EjerciciosTema9/Punto_9_4_3_5/promesas.html"
+      },
+      {
+        "title": "Ejercicio 1",
+        "category": "Tema 8",
+        "image": "16.jpg",
+        "url": "https://github.com/AlbertoJC95/EjerciciosCliente/blob/main/EjerciciosTema8/8_1/8_1.html",
+        "url1": "./ejercicios/Actividades/EjerciciosTema8/8_1/8_1.html"
+      },
+      {
+        "title": "Ejercicio 2",
+        "category": "Tema 8",
+        "image": "17.jpg",
+        "url": "https://github.com/AlbertoJC95/EjerciciosCliente/blob/main/EjerciciosTema8/8_2/8_2.html",
+        "url1": "./ejercicios/Actividades/EjerciciosTema8/8_2/8_2.html"
+      },
+      {
+        "title": "Ejercicio 3",
+        "category": "Tema 8",
+        "image": "18.jpg",
+        "url": "https://github.com/AlbertoJC95/EjerciciosCliente/blob/main/EjerciciosTema8/8_3/8_3.html",
+        "url1": "./ejercicios/Actividades/EjerciciosTema8/8_3/8_3.html"
+      },
+      {
+        "title": "Ejercicio 4",
+        "category": "Tema 8",
+        "image": "19.jpg",
+        "url": "https://github.com/AlbertoJC95/EjerciciosCliente/blob/main/EjerciciosTema8/8_4/8_4.html",
+        "url1": "./ejercicios/Actividades/EjerciciosTema8/8_4/8_4.html"
+      },
+      {
+        "title": "Ejercicio 5",
+        "category": "Tema 8",
+        "image": "20.jpg",
+        "url": "https://github.com/AlbertoJC95/EjerciciosCliente/blob/main/EjerciciosTema8/8_5/8_5.html",
+        "url1": "./ejercicios/Actividades/EjerciciosTema8/8_5/8_5.html"
+      },
+      {
+        "title": "Ejercicio 6",
+        "category": "Tema 8",
+        "image": "21.jpg",
+        "url": "https://github.com/AlbertoJC95/EjerciciosCliente/blob/main/EjerciciosTema8/8_6/8_6.html",
+        "url1": "./ejercicios/Actividades/EjerciciosTema8/8_6/8_6.html"
+      },
+      {
+        "title": "Ejercicio 7",
+        "category": "Tema 8",
+        "image": "22.jpg",
+        "url": "https://github.com/AlbertoJC95/EjerciciosCliente/blob/main/EjerciciosTema8/8_7/8_7.html",
+        "url1": "./ejercicios/Actividades/EjerciciosTema8/8_7/8_7.html"
+      },
+      {
+        "title": "Ejercicio 8",
+        "category": "Tema 8",
+        "image": "23.jpg",
+        "url": "https://github.com/AlbertoJC95/EjerciciosCliente/blob/main/EjerciciosTema8/8_8/index.html",
+        "url1": "./ejercicios/Actividades/EjerciciosTema8/8_8/index.html"
+      },
+      {
+        "title": "Ejercicio 3_5",
+        "category": "Tema 8",
+        "image": "24.jpg",
+        "url": "https://github.com/AlbertoJC95/EjerciciosCliente/blob/main/EjerciciosTema8/apartado_8_3_5/apartado_8_3_5.html",
+        "url1": "./ejercicios/Actividades/EjerciciosTema8/apartado_8_3_5/apartado_8_3_5.html"
+      },
+      {
+        "title": "Ejercicio 3_6",
+        "category": "Tema 8",
+        "image": "25.jpg",
+        "url": "https://github.com/AlbertoJC95/EjerciciosCliente/blob/main/EjerciciosTema8/apartado_8_3_6/apartado_8_3_6.html",
+        "url1": "./ejercicios/Actividades/EjerciciosTema8/apartado_8_3_6/apartado_8_3_6.html"
+      },
+      {
+        "title": "Ejercicio 3_1",
+        "category": "Tema 8",
+        "image": "26.jpg",
+        "url": "https://github.com/AlbertoJC95/EjerciciosCliente/blob/main/EjerciciosTema8/EJ8_3/EJ8_3.html",
+        "url1": "./ejercicios/Actividades/EjerciciosTema8/EJ8_3/EJ8_3.html"
+      },
+      {
+        "title": "Ejercicio 2_1",
+        "category": "Tema 8",
+        "image": "27.jpg",
+        "url": "https://github.com/AlbertoJC95/EjerciciosCliente/blob/main/EjerciciosTema8/p8_2/p8_2.html",
+        "url1": "./ejercicios/Actividades/EjerciciosTema8/p8_2/p8_2.html"
+      },
+      {
+        "title": "Ejercicio 1",
+        "category": "Tema 7",
+        "image": "28.jpg",
+        "url": "https://github.com/AlbertoJC95/EjerciciosCliente/blob/main/EjerciciosTema7/7_1.html",
+        "url1": "./ejercicios/Actividades/EjerciciosTema7/7_1.html"
+      },
+      {
+        "title": "Ejercicio 2",
+        "category": "Tema 7",
+        "image": "29.jpg",
+        "url": "https://github.com/AlbertoJC95/EjerciciosCliente/blob/main/EjerciciosTema7/7_2.html",
+        "url1": "./ejercicios/Actividades/EjerciciosTema7/7_2.html"
+      },
+      {
+        "title": "Ejercicio 3",
+        "category": "Tema 7",
+        "image": "30.jpg",
+        "url": "https://github.com/AlbertoJC95/EjerciciosCliente/blob/main/EjerciciosTema7/7_3.html",
+        "url1": "./ejercicios/Actividades/EjerciciosTema7/7_3.html"
+      },
+      {
+        "title": "Ejercicio 4",
+        "category": "Tema 7",
+        "image": "31.jpg",
+        "url": "https://github.com/AlbertoJC95/EjerciciosCliente/blob/main/EjerciciosTema7/7_4.html",
+        "url1": "./ejercicios/Actividades/EjerciciosTema7/7_4.html"
+      },
+      {
+        "title": "Ejercicio 2",
+        "category": "Jquery",
+        "image": "32.jpg",
+        "url": "https://github.com/AlbertoJC95/EjerciciosCliente/blob/main/ejercicioJQUERY/ej2.html",
+        "url1": "./ejercicios/Actividades/ejercicioJQUERY/ej2.html"
+      },
+      {
+        "title": "Calculadora",
+        "category": "Calculadora",
+        "image": "33.jpg",
+        "url": "https://github.com/AlbertoJC95/EjerciciosCliente/blob/main/Calculadora-Alberto_Jimenez/Calculadora.html",
+        "url1": "./ejercicios/Actividades/Calculadora-Alberto_Jimenez/Calculadora.html"
+      }
+    ]
+  },
+  "testimonials": {
+    "testimonials": [
+      {
+        "text": "Here you should write some nice things that someone has said about you. No lies though, employers can tell when you are lying.",
+        "user": "Kareem Abdul Jabbar"
+      },
+      {
+        "text": "That Tim Baker must be one of the most brilliant developers I've ever met! It is amazing that nobody has hired him yet. Hey you, you should hire this guy, he may be fresh out of University and have zero on the job experience but I am confident that he will be one of your best developers in no time!",
+        "user": "Steve Wozniak... impersonator"
+      }
+    ]
+  }
+}

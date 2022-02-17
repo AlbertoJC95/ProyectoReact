@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function generarNumero(numero) {
+            return (Math.random() * numero).toFixed(0);
+        }
+
+        function colorRGB() {
+            var color = "(" + generarNumero(255) + "," + generarNumero(255) + "," + generarNumero(255) + ")";
+            return "rgb" + color;
+        }
+
+        document.write(
+            "<div id='iframe'" + "style='padding:100rem; background-color:" + colorRGB() + "'>" + "</div>"
+        );
+    </script>
+</head>
+
+<body>
+</body>
+
+</html>

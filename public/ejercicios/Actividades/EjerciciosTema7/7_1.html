@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <ol>
+        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet impedit exercitationem dicta vel. Ipsum
+            error consequuntur enim, culpa corporis dignissimos voluptatum autem, necessitatibus facilis sint totam
+            veritatis assumenda dicta harum.</li>
+        <li>Optio maxime vel consectetur tenetur voluptates officiis expedita odio rem aperiam culpa ab iusto laudantium
+            officia est eveniet tempore, aspernatur ex unde a, mollitia cumque tempora quos. Delectus, eos libero.</li>
+        <li>Vero incidunt sint animi impedit distinctio ea harum soluta fugit itaque ad dolorum consequuntur tenetur
+            dolorem doloribus, repudiandae dolore recusandae eveniet dolor quaerat deleniti necessitatibus culpa facere.
+            Dicta, iste atque.</li>
+        <li>Ipsum veniam maiores sunt minima rem voluptatibus natus sed similique et ratione iusto, odio quibusdam nihil
+            expedita, laudantium accusantium eum inventore quae accusamus deserunt consequuntur ab commodi. Iste,
+            pariatur expedita.</li>
+        <li>Sequi animi nesciunt culpa necessitatibus, dolorem neque officia perspiciatis totam corrupti deserunt
+            eligendi ex blanditiis commodi possimus laudantium quia. Necessitatibus voluptas sunt ratione officiis
+            excepturi quisquam perferendis accusamus dolores quas.</li>
+        <li>Amet, eaque vero assumenda fuga nostrum rerum recusandae? Repellendus vero expedita vel laboriosam minus
+            iure enim, aperiam praesentium quidem libero. Recusandae nihil enim deserunt adipisci nobis maiores,
+            similique sint vero.</li>
+        <li>Maiores iste illum ratione itaque nulla, suscipit id quasi, mollitia laborum veritatis excepturi obcaecati
+            magni harum recusandae aut omnis minus a vitae quod consequatur. Voluptas, quasi quae? Quidem, possimus
+            placeat.</li>
+        <li>Autem vitae ipsam perferendis ratione porro voluptatibus recusandae unde nostrum earum reiciendis. Obcaecati
+            consequuntur ad est accusantium ea nesciunt odio dicta officia consectetur voluptate qui, adipisci fugit
+            natus corporis magni!</li>
+        <li>Iste, commodi. Nostrum facilis quae et exercitationem alias tempore reiciendis ipsam labore atque. Ducimus
+            ex molestiae rerum adipisci amet fuga est officia expedita, illo excepturi? Nihil recusandae id assumenda
+            aperiam.</li>
+    </ol>
+
+    <script>
+        function texto() {
+
+            var texto = prompt("Escribe el texto que desees");
+            var posicion;
+            if (texto != null) {
+                do {
+                    posicion = prompt("Escriba la posicion del texto (número del 1 al 10)")
+                    if (posicion != null) {
+                        posicion = parseInt(Number(posicion));
+                        if (isNaN(posicion) || posicion < 1 || posicion > 10) {
+                            alert("El número no vale")
+                        }
+                    }
+
+                }
+                while (posicion != null && (isNaN(posicion) || posicion < 1 || posicion > 10));
+
+                var lista = document.getElementsByTagName("ol")[0];
+                var nuevoelemento = document.createElement("li");
+                nuevoelemento.innerHTML = texto.bold();
+                if (posicion == 10) {
+                    lista.appendChild(nuevoelemento);
+                } else {
+                    let liSiguiente = lista.children[posicion - 1];
+                    lista.insertBefore(nuevoelemento, liSiguiente)
+                }
+
+            }
+        }
+    </script>
+
+    <button onclick="texto()">Click</button>
+
+</body>
+
+</html>
